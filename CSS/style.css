@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: #f3f3f3bc;
+}
+
+header{
+    background: #1c2833;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+header .emblem p{
+    font-size: 25px;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+}
+
+.container-tables{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.container-tables table{
+    width: 1000px;
+    border: solid 1px #aca7a754;
+}
+
+
+
