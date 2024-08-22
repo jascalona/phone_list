@@ -26,6 +26,6 @@ if (!empty($_POST['log'])) {
         
 
     } else {
-        echo "DEBE LLENAR LOS CAMPOS";
+        echo '<script>alert("Debe llenar los Campos")</script>';
     }
 }
