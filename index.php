@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +29,8 @@
             </div>
 
             <div class="log_in">
+                <form action="" method="POST">
+
                 
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Log In</button>
 
@@ -41,8 +44,12 @@
                         </div>
                         
                         <div class="modal-body">
-                            
-                            <form>
+
+                            <?php  
+                            include './Controller/conexion.php';
+                            include './Controller/validar.php'; 
+                            ?>
+
                             
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Usuario</label>
@@ -51,20 +58,23 @@
 
                             <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label">Password</label>
-                                <input type="text" name="password" class="form-control" id="password" placeholder="Ingrese su Clave">
+                                <input type="password" name="password" class="form-control" id="password" placeholder="Ingrese su Clave">
                             </div>
 
-                            </form>
+                            
                         </div>
         
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Log in</button>
+                            <button type="submit" name="log" class="btn btn-primary" value="submit">Log in</button>
                         </div>
 
-                        </div>
+                    </div>
                     </div>
                 </div>
+
+                </form>
+
             </div>
         
         </div>    
@@ -81,7 +91,7 @@
             <div class="input-search">
                 <form class="d-flex" action="">
                     <input class="form-control me-2 light-table-filter" type="text" data-table="table"  placeholder="Buscar...">
-                    <button type="submit"  name="submit" ><i class='bx bx-search-alt' style='color:#fff'></i></button>
+                <!-- <button type="submit"  name="submit" ><i class='bx bx-search-alt' style='color:#fff'></i></button>  -->
                     <button type="submit"  name="reset"><i class='bx bx-reset' style='color:#ffffff'></i></button>
                 </form>
             </div>
