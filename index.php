@@ -16,6 +16,7 @@
 
     <!-- script -->
     <script src="./JS/Bootstrap.js"></script>
+    <script src="./JS/search.js" ></script>
     <!-- script -->
 
 </head>
@@ -78,13 +79,14 @@
             ?>
 
             <div class="input-search">
-                <form action="" method="GET">
-                    <input type="search" name="search" placeholder="Buscar...">
+                <form class="d-flex" action="">
+                    <input class="form-control me-2 light-table-filter" type="text" data-table="table"  placeholder="Buscar...">
                     <button type="submit"  name="submit" ><i class='bx bx-search-alt' style='color:#fff'></i></button>
                     <button type="submit"  name="reset"><i class='bx bx-reset' style='color:#ffffff'></i></button>
                 </form>
             </div>
         <!-- SEARCH PHP -->
+
 
 
         <!-- vistas tables -->
@@ -105,6 +107,7 @@
                 <?php
 
                 include './Controller/conexion.php';
+                include './Controller/search.php';
                 
                     $SQL="SELECT p_list_phone.name, p_list_phone.surname, p_list_phone.GEO, p_list_phone.phone,
                     p_list_phone.extension FROM p_list_phone

@@ -1,8 +1,7 @@
 <?php
 
-include './Controller/conexion.php';
 
-
+$conexion = mysqli_connect("localhost", "root", "", "XDV", "3306");
 //var reposity campos
 $where = "";
 
@@ -13,7 +12,7 @@ if (isset($_GET['submit'])) {
     {
     
     # concatenacion de filtros
-    $where= " WHERE surname LIKE'%".$filter."%' OR name LIKE'%".$filter."%'  OR GEO LIKE'%".$filter."%'
+    $where= " WHERE name LIKE'%".$filter."%' OR surname LIKE'%".$filter."%' OR GEO LIKE'%".$filter."%'
     OR phone LIKE'%".$filter."%' OR extension LIKE'%".$filter."%'  "; 
 
     }
