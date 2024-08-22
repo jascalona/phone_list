@@ -18,3 +18,16 @@ if (isset($_GET['submit'])) {
 
     }
 }
+
+
+
+if (!empty($_GET['reset'])) { ?>
+    
+    <script>
+        //reset cache
+        history.replaceState(null,null,location.pathname)
+    </script>
+
+<?php
+}
+?>

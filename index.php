@@ -81,6 +81,7 @@
                 <form action="" method="GET">
                     <input type="search" name="search" placeholder="Buscar...">
                     <button type="submit"  name="submit" ><i class='bx bx-search-alt' style='color:#fff'></i></button>
+                    <button type="submit"  name="reset"><i class='bx bx-reset' style='color:#ffffff'></i></button>
                 </form>
             </div>
         <!-- SEARCH PHP -->
