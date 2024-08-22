@@ -36,5 +36,32 @@ header .emblem p{
     border: solid 1px #aca7a754;
 }
 
+.container-navigation {
+    display: flex;
+    justify-content: center;
+}
 
+.input-search{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
 
+.input-search input{
+    width: 400px;
+    padding: 4px;
+    padding-left: 12px;
+    border-radius: 8px;
+    border: solid 1px #59595987; 
+    
+}
+
+.input-search button{
+    background: #050740;
+    border: none;
+    border-radius: 8px;
+    border: solid 1px #59595987;
+    width: 50px;
+    padding: 5px;
+    
+}
