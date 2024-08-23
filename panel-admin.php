@@ -1,10 +1,10 @@
 <?php
 session_start();
 if (!empty($_SESSION["name"])) {
-   header("loaction: ./panel.php");
+   header("loaction: ./index.php");
 }else{
     if ((time() - $_SESSION['time']) > 40) {
-        header("location: ./panel.php");
+        header("location: ./index.php");
     }
 }
 
@@ -107,6 +107,7 @@ if (!empty($_SESSION["name"])) {
 
                 include './Controller/conexion.php';
                 include './Controller/search.php';
+                include './Controller/drop_p.php';
                 
                     $SQL="SELECT p_list_phone.name, p_list_phone.surname, p_list_phone.GEO, p_list_phone.phone,
                     p_list_phone.extension FROM p_list_phone
@@ -125,7 +126,7 @@ if (!empty($_SESSION["name"])) {
                         <td><?php echo $fila['extension']; ?></td>
 
                         <td>
-                            <a href=""><i class='bx bxs-trash'></i></a>
+                            <a href="./Controller/drop_p.php"><i class='bx bxs-trash'></i></a>
                         </td>
 
                         <td>
