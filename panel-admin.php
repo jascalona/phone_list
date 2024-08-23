@@ -4,7 +4,7 @@ if (!empty($_SESSION["name"])) {
    header("loaction: ./panel.php");
 }else{
     if ((time() - $_SESSION['time']) > 40) {
-        header("location: ./index.php");
+        header("location: ./panel.php");
     }
 }
 
@@ -13,7 +13,7 @@ if (!empty($_SESSION["name"])) {
 
 
 <!DOCTYPE html>
-<html lang="en">s
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,6 +97,9 @@ if (!empty($_SESSION["name"])) {
                         <th scope="col">Ubicacion</th>
                         <th scope="col">Phone</th>
                         <th scope="col">Extension</th>
+                        <th scope="col"><i class='bx bxs-trash'></i></th>
+                        <th scope="col"><i class='bx bxs-edit-alt'></i></th>
+
                     </tr>
                 </thead>
 
@@ -114,14 +117,23 @@ if (!empty($_SESSION["name"])) {
                     while($fila=mysqli_fetch_array($dato)){
                     
                     ?>
-                        <tr>
+                    <tr>
                         <td><?php echo $fila['name']; ?></td>
                         <td><?php echo $fila['surname']; ?></td>
                         <td><?php echo $fila['GEO']; ?></td>
                         <td><?php echo $fila['phone']; ?></td>
                         <td><?php echo $fila['extension']; ?></td>
 
-                        </tr>
+                        <td>
+                            <a href=""><i class='bx bxs-trash'></i></a>
+                        </td>
+
+                        <td>
+                            <a href=""><i class='bx bxs-edit-alt'></i></a>
+                        </td>
+
+
+                    </tr>
 
 
                     <?php

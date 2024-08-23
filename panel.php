@@ -1,20 +1,3 @@
-<?php
-session_start();
-if (!empty($_SESSION["name"])) {
-    header("  ./panel.php");
-}else{
-    if ((time() - $_SESSION['time']) > 40) {
-        header("location: ./index.php");
-    }
-}
-
-?>
-
-<?php 
-include "./Controller/conexion.php";
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +28,7 @@ include "./Controller/conexion.php";
                 <p>Phone Book Corporation ®Xven</p>
             </div>
 
-        <!--
+        
 
             <div class="log_in">
                 <form action="" method="POST">
@@ -96,29 +79,7 @@ include "./Controller/conexion.php";
 
             </div>
         
-        </div>    -->
-
-
-        <!-- Vistas administrator -->
-
-        <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-
-        <div class="btn-sesion">
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    
-                    <?php
-                    echo $_SESSION["name"];
-                    ?>
-
-                    </button>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./Controller/close.php">Cerrar Sesion</a></li>
-                    </ul>
-                </div>
-            </div>
-
+        </div>    
 
         </header>
 

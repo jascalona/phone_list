@@ -25,7 +25,7 @@ if (!empty($_POST['log'])) {
 
 
 
-            header("location: ./panel.php");
+            header("location: ./panel-admin.php");
         } else {
             echo '<div style="background: rgb(211, 6, 47); padding: 20px; position: absolute; margin-top: -200px; font-size: 12px; display: flex; margin-left: -100px;" class="alert alert-danger">Acceso Denegado! Credenciales incorrectas, Verifique e intente de nuevo!</div>';
         }
