@@ -19,7 +19,7 @@ if (!empty($_POST['edit'])) {
         extension='$extension' WHERE id='$id' ");
 
         if ($query==1) {
-            header('location: https://web.whatsapp.com/');
+            header('location: ../panel-admin.php');
         } else {
             echo '<script>alert("Ha Ocurrido un Error de Conexion!")</script>';
         }

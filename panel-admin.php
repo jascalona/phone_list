@@ -11,7 +11,6 @@ if (!empty($_SESSION["name"])) {
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -125,7 +124,7 @@ if (!empty($_SESSION["name"])) {
                         </td>
 
                         <td>
-                            <a href="./Controller/edit.php?id=<?= $datos->id?>">edi</a>
+                            <a href="./Controller/edit.php?id=<?= $datos->id?>"><i class='bx bxs-edit-alt'></i></a>
                         </td>
 
 

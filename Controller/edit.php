@@ -16,43 +16,37 @@ $sql=$conexion->query(" SELECT *FROM p_list_phone WHERE id=$id ");
     <title>Edit</title>
 
 
-
-    <!--CSS STYLES-->
-    <link rel="stylesheet" href="http://localhost/monitoring//CSS/style.css">
-    <link rel="stylesheet" href="http://localhost/monitoring//CSS/conf.css">
-    <link rel="stylesheet" href="http://localhost/monitoring/CSS/responsive.css">
+    <!-- STYLE CSS & ICONS -->
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/FRAMEWORK/bootstrap.css">
-    <!--CSS STYLES-->
-
-    <!--BOX-ICONS-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!--BOX-ICONS-->
+    <!-- STYLE CSS & ICONS -->
 
-    <!--FRAMEWORK BOOTSTRAP-->
-    <script src="./JS/FRAMEWORK/bootstrap.js"></script>
-    <script src="./JS/FRAMEWORK/jquery.js"></script>
-    <script src="./JS/FRAMEWORK/bootstrap_ii.js"></script>
-    <!--FRAMEWORK BOOTSTRAP-->
+    <!-- script -->
+    <script src="../JS/Bootstrap.js"></script>
+    <script src="../JS/search.js" ></script>
+    <!-- script -->
 
 
     <!-- SCRIPT SEARCH-->
-    <script src="./JS/search.js"></script>
+    <script src="../JS/search.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- SCRIPT SEARCH-->
 </head>
-<body style="background-image: url(../images/spencer-davis-ilQmlVIMN4c-unsplash.jpg);">
+<body class="edit" style="background-image: url(../IMG/header.jpg); background-size: cover; background-repeat: no-repeat; ">
                             
 
-                    <div class="container-form-r">
+                    <div class="container-form-e">
                         <div class="container-edit">
                         <?php
-                            include './Controller/modification.php';
+
+                            include '../Controller/modification.php';
 
                             while($datos=$sql->fetch_object()){ ?>
 
                             <form action="" method="POST">
                                                 
-                                <input type="hidden" name="id" class="form-control" id="id" placeholder="Ingrese su Nombre" value="<?= $_GET['id']?>">
+                            <input type="hidden" name="id" class="form-control" id="id" placeholder="Ingrese su Nombre" value="<?= $_GET['id']?>">
 
 
 
@@ -89,6 +83,7 @@ $sql=$conexion->query(" SELECT *FROM p_list_phone WHERE id=$id ");
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="../panel-admin.php">Volver</a></button>
                                 <button type="submit" name="edit" class="btn btn-primary" value="submit">Modificar</button>
                             </div>
+                            
 
                         </div>
                         </form>

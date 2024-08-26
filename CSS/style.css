@@ -66,3 +66,27 @@ header .emblem p{
     padding: 5px;
     
 }
+
+/*sesion form edit register*/
+.container-form-e { 
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form-e .container-edit a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-edit button{
+    margin: 5px;
+}
+
+.container-edit{
+    background: #f3f3f36b;
+    padding: 80px;
+    border: none;
+    border-radius: 10px;
+}
