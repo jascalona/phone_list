@@ -1,6 +1,6 @@
 <?php
 
-include './CONTROLLER/conexion.php';
+include './Controller/conexion.php';
 
 if (!empty($_POST['edit'])) {
 
@@ -15,16 +15,18 @@ if (!empty($_POST['edit'])) {
         $phone = $_POST['phone'];
         $extension = $_POST['extension'];
 
-        $sql=$conexion->query(" UPDATE p_list_phone SET  name='$name', surname='$surname', GEO='$GEO', phone='$phone', 
+        $query=$conexion->query(" UPDATE p_list_phone SET  name='$name', surname='$surname', GEO='$GEO', phone='$phone', 
         extension='$extension' WHERE id='$id' ");
 
-        if ($sql==1) {
-            header('location: ../registro.php');
+        if ($query==1) {
+            header('location: https://web.whatsapp.com/');
         } else {
             echo '<script>alert("Ha Ocurrido un Error de Conexion!")</script>';
         }
-        
-    } else {}
-    echo '<script>alert("Asegurece de llenar todos los Campos!!")</script>';
+
+    }  else {
+        echo '<script>alert("Asegurese de llenar todos los campos")</script>';
+    }
+
 }
 

@@ -109,114 +109,30 @@ if (!empty($_SESSION["name"])) {
                 include './Controller/search.php';
                 include './Controller/drop_p.php';
                 
-                    $SQL="SELECT p_list_phone.name, p_list_phone.surname, p_list_phone.GEO, p_list_phone.phone,
-                    p_list_phone.extension FROM p_list_phone
-                    $where";
-                    $dato = mysqli_query($conexion, $SQL);
+                $sql=$conexion->query( "SELECT *FROM p_list_phone" );
+                while($datos=$sql->fetch_object()){
+                    ?>    
 
-                    if($dato -> num_rows >1){
-                    while($fila=mysqli_fetch_array($dato)){
-                    
-                    ?>
                     <tr>
-                        <td><?php echo $fila['name']; ?></td>
-                        <td><?php echo $fila['surname']; ?></td>
-                        <td><?php echo $fila['GEO']; ?></td>
-                        <td><?php echo $fila['phone']; ?></td>
-                        <td><?php echo $fila['extension']; ?></td>
+                        <td><?= $datos->name?></td>
+                        <td><?= $datos->surname?></td>
+                        <td><?= $datos->GEO?></td>
+                        <td><?= $datos->phone?></td>
+                        <td><?= $datos->extension?></td>
 
                         <td>
                             <a href="./panel-admin.php?id=<?= $datos->id?>"><i class='bx bx-trash-alt'></i></a>
                         </td>
 
                         <td>
-
-                            <div class="log_in">
-                                <form action="" method="POST">
-
-                                
-                                <button type="button" style="background: none; border: none;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"><i class='bx bxs-edit-alt'></i></button>
-
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                        
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Modificacion de Registros</b></h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        
-                                        <div class="modal-body">
-
-                                            <?php  
-                                            include './Controller/conexion.php';
-                                            ?>
-
-                                            
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Nombre</label>
-                                                <input type="text" name="name" class="form-control" id="user">
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Apellido</label>
-                                                <input type="text" name="surname" class="form-control" id="user">
-                                            </div>
-
-
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Ubicacion</label>
-                                                <input type="text" name="GEO" class="form-control" id="GEO">
-                                            </div>
-
-
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Phone</label>
-                                                <input type="text" name="phone" class="form-control" id="user">
-                                            </div>
-
-
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label"> Extension</label>
-                                                <input type="text" name="extension" class="form-control" id="user">
-                                            </div>
-
-                                            
-                                        </div>
-                        
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" name="log" class="btn btn-primary" value="submit">Log in</button>
-                                        </div>
-
-                                    </div>
-                                    </div>
-                                </div>
-
-                                </form>
-
-                            </div>
-                        
-                        </div>    
+                            <a href="./Controller/edit.php?id=<?= $datos->id?>">edi</a>
                         </td>
 
 
                     </tr>
 
-
                     <?php
                     }
-                    }else{
-
-                    ?>
-                    <tr class="text-center">
-                    <td colspan="16">No existen registros</td>
-                    </tr>
-
-                    <?php
-    
-                    }
-
                     ?>
 
                 </tbody>
