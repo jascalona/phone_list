@@ -42,11 +42,22 @@ header .emblem p{
     justify-content: center;
 }
 
-.input-search{
+.home-function{
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
+
+.upload{
+    margin-left: 10px;
+}
+
+/*
+.input-search{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}*/
 
 .input-search input{
     width: 400px;

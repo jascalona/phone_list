@@ -73,6 +73,11 @@ if (!empty($_SESSION["name"])) {
                 include './Controller/search.php';
             ?>
 
+
+
+        <div class="home-function">
+
+        
             <div class="input-search">
                 <form class="d-flex" action="">
                     <input class="form-control me-2 light-table-filter" type="text" data-table="table"  placeholder="Buscar...">
@@ -81,6 +86,74 @@ if (!empty($_SESSION["name"])) {
                 </form>
             </div>
         <!-- SEARCH PHP -->
+
+
+        <div class="upload">
+                <form action="" method="POST">
+
+                
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"><i class='bx bx-user-plus'></i></button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel"><b>Agregar Nuevo Registro</b></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        
+                        <div class="modal-body">
+
+                            <?php  
+                            include './Controller/conexion.php';
+                            include './Controller/Uloap.php';
+                            ?>
+
+                            
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Nombre</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese su Nombre">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Apellido</label>
+                                <input type="text" name="surname" class="form-control" id="surname" placeholder="Ingrese su Apellido">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Ubicacion</label>
+                                <input type="text" name="GEO" class="form-control" id="GEO" placeholder="Ingrese su Ubicacion">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Phone</label>
+                                <input type="text" name="phone" class="form-control" id="phone" placeholder="Ingrese su Phone">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Extension</label>
+                                <input type="text" name="extension" class="form-control" id="extension" placeholder="Ingrese su Extension">
+                            </div>
+
+                            
+                        </div>
+        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" name="uloap" class="btn btn-primary" value="submit">Agregar</button>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+
+                </form>
+
+        </div>
 
 
 

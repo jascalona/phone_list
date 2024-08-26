@@ -13,6 +13,7 @@ $sql=$conexion->query(" SELECT *FROM p_list_phone WHERE id=$id ");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../IMG/x.png">
     <title>Edit</title>
 
 
