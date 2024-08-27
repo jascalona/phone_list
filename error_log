@@ -1,0 +1,287 @@
+[26-Aug-2024 16:25:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/conexion.php:9
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/conexion.php(9): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(51): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/conexion.php on line 9
+[26-Aug-2024 16:33:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/conexion.php:9
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/conexion.php(9): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(51): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/conexion.php on line 9
+[26-Aug-2024 16:35:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/search.php:4
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/search.php(4): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(91): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/search.php on line 4
+[26-Aug-2024 16:37:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/search.php:4
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/search.php(4): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(91): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/search.php on line 4
+[26-Aug-2024 16:39:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/search.php:4
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/search.php(4): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(91): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/search.php on line 4
+[26-Aug-2024 16:39:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/search.php:4
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/search.php(4): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(91): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/search.php on line 4
+[26-Aug-2024 16:39:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/search.php:4
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/search.php(4): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/index.php(91): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/search.php on line 4
+[26-Aug-2024 16:39:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gxdeve/public_html/phone_list/Controller/search.php:4
+Stack trace:
+#0 /home/gxdeve/public_html/phone_list/Controller/search.php(4): mysqli_connect('localhost', 'root', '', 'XDV', '3306')
+#1 /home/gxdeve/public_html/phone_list/panel-admin.php(73): include('/home/gxdeve/pu...')
+#2 {main}
+  thrown in /home/gxdeve/public_html/phone_list/Controller/search.php on line 4
+[26-Aug-2024 16:40:35 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:40:35 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:40:35 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:40:35 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:10 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:53 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:53 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:53 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:53 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:41:54 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:42:51 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:42:51 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:42:51 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:42:51 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:42:51 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 127
+[26-Aug-2024 16:43:03 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:43:03 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:43:03 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:43:03 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:43:03 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 127
+[26-Aug-2024 16:43:04 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:43:04 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:43:04 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:43:04 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:43:42 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:43:42 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:43:42 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:43:42 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:43:59 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:43:59 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:43:59 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:43:59 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:02 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:02 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:02 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:02 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:06 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:06 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:06 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:06 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:34 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:34 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:34 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:34 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:38 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:38 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:44:38 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:44:38 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 181
+[26-Aug-2024 16:45:01 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:45:01 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:45:01 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:45:01 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:45:52 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:45:52 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:45:52 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:45:52 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:46:06 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:06 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:06 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:46:06 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:46:06 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 127
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 127
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 123
+[26-Aug-2024 16:46:08 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 127
+[26-Aug-2024 16:46:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:46:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:46:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:46:49 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:47:09 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:09 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:09 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:09 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:09 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:47:13 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:47:17 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:17 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:17 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:17 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:17 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:47:24 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:24 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:24 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:24 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:24 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:47:33 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:33 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:47:33 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:33 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:47:33 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:48:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/gxdeve/public_html/phone_list/Controller/validar.php on line 2
+[26-Aug-2024 16:48:30 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:48:30 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:48:30 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:48:30 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:48:30 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:55:48 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:55:48 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:55:48 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:55:48 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:55:48 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:56:35 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:09 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:09 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:09 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:09 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:30 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:30 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:30 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:30 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:50 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:50 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:50 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:50 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:53 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:53 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:53 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:53 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:56 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:56 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:57:56 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:57:56 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:58:00 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:58:00 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:58:00 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:58:00 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:58:32 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:58:32 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:58:32 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:58:32 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:59:09 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:59:09 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:59:09 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:59:09 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:59:31 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:59:31 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:59:31 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:59:31 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:59:43 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:59:43 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 73
+[26-Aug-2024 16:59:43 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 16:59:43 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/panel-admin.php on line 182
+[26-Aug-2024 17:00:47 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:47 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:47 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:47 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:47 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:00:49 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 17:02:28 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:02:28 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 17:02:28 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:02:28 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 17:02:28 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 18:40:05 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 18:40:05 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 18:40:05 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 18:40:05 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 18:40:05 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 18:56:53 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 18:56:53 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 18:56:53 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 18:56:53 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 18:56:53 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 18:57:55 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 18:57:55 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 18:57:55 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 18:57:55 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 18:57:55 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 19:20:47 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 19:20:47 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 19:20:47 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 19:20:47 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 19:20:47 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[26-Aug-2024 19:23:33 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 19:23:33 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[26-Aug-2024 19:23:33 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 19:23:33 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[26-Aug-2024 19:23:33 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[27-Aug-2024 09:20:30 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[27-Aug-2024 09:20:30 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[27-Aug-2024 09:20:30 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[27-Aug-2024 09:20:30 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[27-Aug-2024 09:20:30 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130
+[27-Aug-2024 09:46:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 91
+[27-Aug-2024 09:46:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 91
+[27-Aug-2024 09:46:49 UTC] PHP Warning:  include(./Controller/search.php): Failed to open stream: No such file or directory in /home/gxdeve/public_html/phone_list/index.php on line 126
+[27-Aug-2024 09:46:49 UTC] PHP Warning:  include(): Failed opening './Controller/search.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/gxdeve/public_html/phone_list/index.php on line 126
+[27-Aug-2024 09:46:49 UTC] PHP Warning:  Undefined variable $where in /home/gxdeve/public_html/phone_list/index.php on line 130

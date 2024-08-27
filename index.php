@@ -91,6 +91,8 @@
                 include './Controller/search.php';
             ?>
 
+        <div class="home-function">
+
             <div class="input-search">
                 <form class="d-flex" action="">
                     <input class="form-control me-2 light-table-filter" type="text" data-table="table"  placeholder="Buscar...">
@@ -98,6 +100,7 @@
                     <button type="submit"  name="reset"><i class='bx bx-reset' style='color:#ffffff'></i></button>
                 </form>
             </div>
+        </div>
         <!-- SEARCH PHP -->
 
 
@@ -159,7 +162,7 @@
                 </tbody>
 
             </table>
-        </div>
+        </div> 
 
 
 
@@ -190,8 +193,8 @@
                  <div class="container-fluid" style="display: flex; justify-content: center; margin-top: 50px;">
                   <div class="row">
                       <div class="">
-                          <p style="color: #000;" class="m-0">Phone Book Corporation ®Xven
-                              &copy;  Todos los derechos reservados. XDV® | Designed by <a href="" style="color: blue;">XDV</a>
+                        <p style="color: #000;" class="m-0">Phone Book Corporation ���Xven
+                              &copy;  Todos los derechos reservados. XDV��� | Designed by <a href="" style="color: blue;">XDV</a>
                           </p>
                           
                           <div class="linear"></div>

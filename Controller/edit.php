@@ -1,6 +1,6 @@
 <?php
 
-$conexion = mysqli_connect('localhost','root','','XDV','3306' );
+$conexion = mysqli_connect('199.167.145.8','gxdeve_admin','G1pzx2p7%11','gxdeve_apps','3306' );
 
 $id=$_GET['id'];
 $sql=$conexion->query(" SELECT *FROM p_list_phone WHERE id=$id ");

@@ -38,7 +38,7 @@ if (!empty($_SESSION["name"])) {
     <!-- Vistas Administrator -->
     <header>
             <div class="emblem">
-                <p>Phone Book Corporation ®Xven</p>
+                <p>Phone Book Corporation ���Xven</p>
             </div>
 
             <div class="log_in">
@@ -154,6 +154,7 @@ if (!empty($_SESSION["name"])) {
                 </form>
 
         </div>
+    </div>
 
 
 
@@ -213,7 +214,7 @@ if (!empty($_SESSION["name"])) {
         </div>
 
 
-
+<!--
         <div style="display: flex; justify-content: center; margin: 25px;" class="container-navigation">
             <ul class="pagination">
                 <li class="page-item">
@@ -231,7 +232,7 @@ if (!empty($_SESSION["name"])) {
                 </li>
             </ul>
         </div>
-
+                -->
 
 
 
@@ -241,9 +242,10 @@ if (!empty($_SESSION["name"])) {
                  <div class="container-fluid" style="display: flex; justify-content: center; margin-top: 50px;">
                   <div class="row">
                       <div class="">
-                          <p style="color: #000;" class="m-0">Phone Book Corporation ®Xven
+                         <p style="color: #000;" class="m-0">Phone Book Corporation ®Xven
                               &copy;  Todos los derechos reservados. XDV® | Designed by <a href="" style="color: blue;">XDV</a>
                           </p>
+                          
                           
                           <div class="linear"></div>
                           <div style="display: flex; justify-content: center;" class="icons">
